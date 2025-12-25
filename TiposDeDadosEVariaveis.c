@@ -86,5 +86,10 @@ int main(int argc, char const *argv[])
     printf("Imenso: %llu\n", imenso);
     printf("Preciso: %Lf\n", preciso);
 
+    // Variaveis constantes não podem ser alteradas
+
+    const VARCONST = 0; // Eternamente será 0
+    // Declarar em full capslock é uma boa prática
+
     return 0;
 }
