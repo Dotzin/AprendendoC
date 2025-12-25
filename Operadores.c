@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     //Módulo
     int mod = 32%5; //Divide valores e retorna o resto 32 % 5 = 6
     //Incrementação
-    int incre = ++soma; //Retrona o incremento de 1 6 + 1 = 7
+    int incre = ++soma; //Retorna o incremento de 1 6 + 1 = 7
     //Decrementação
     int decre = --incre; //Retorna o decremento de 1 7 - 1 = 6
 
@@ -65,5 +65,36 @@ int main(int argc, char const *argv[])
     // Deslocamento de bits
     x <<= 1; // Move bits para a esquerda (multiplica por 2)
     x >>= 1; // Move bits para a direita (divide por 2)
+
+    /*
+    Operadores de Comparação
+    Faz comparações retornado 1 caso verdadeiras e 0 caso falsas
+    */
+
+    int igualA = 1 == 1; // retorna 1 pois 1 é igual a 1
+
+    int diferenteDe = 1!= 1; // retorna 0 pois 1 não é diferente de 1
+
+    int maiorQue = 1 > 3; // retorna 0 pois 1  não é maior do que 3 
+
+    int menorQue = 1 < 3; // retorna 1 pois 1 é menor que 3
+
+    int maiorOuIgual = 2 >= 2; // retorna 1 pois 2 é igual ou maior que 2
+
+    int menorOuIgual = 1 <= 2; // Retorna 1 pois 1 é menor que 2
+
+
+    /*
+    Operadores Lógicos
+    Auxilia em combinar condições para comparações
+
+    && "And" Retorna 1 se ambas operacṍes são verdadeiras
+    || "Or" Retorna 1 caso uma das operações sejam verdadeiras
+    ! "Not" Inverte o resultado, se for verdadeiro retorna 0 e caso falso retorna 1
+    */
+
+
+
+    return 0;
 
 }
